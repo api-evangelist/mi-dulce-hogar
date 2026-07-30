@@ -1,7 +1,25 @@
 aid: mi-dulce-hogar
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mi-dulce-hogar.png
 name: Mi Dulce Hogar
-description: Mi Dulce Hogar is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Mi Dulce Hogar is a professional home and commercial cleaning services
+  company operating in Mexico City (CDMX), connecting customers with vetted, background-screened
+  cleaning professionals. Services include residential and office cleaning, upholstery
+  and carpet washing, floor polishing, and pest control/fumigation. The company states
+  it has delivered more than 100,000 services and screens candidates through a rigorous
+  criminological vetting process. Surfaced as a 500 Global portfolio company and added
+  to the API Evangelist network as a lead; the public web presence is a consumer marketing
+  and booking site with no public developer API, SDK, or documentation surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/mi-dulce-hogar/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Cleaning Services
+- Home Services
+- Facility Management
+- Mexico
+- On-Demand Services
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,16 @@ maintainers:
 common:
 - type: Website
   url: https://midulcehogar.mx
+- type: PrivacyPolicy
+  url: https://www.midulcehogar.mx/aviso-de-privacidad/
+- type: TermsOfService
+  url: https://www.midulcehogar.mx/terminos-y-condiciones/
+- type: Support
+  url: https://www.midulcehogar.mx/contacto/
+- type: DomainSecurity
+  url: security/mi-dulce-hogar-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
